@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree-Serief';
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (min-width: 769px) {
+  .latest-match-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    list-style-type: none;
+  }
+}
+.competing-team {
+  font-size: 34px;
+}
+.date {
+  font-size: 28px;
+}
+.venue-result-text-color {
+  font-size: 20px;
+}
+.competing-team-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.innings {
+  font-size: 24px;
+}
+.paragraph {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .latest-match-container {
+    width: 80vw;
+    list-style-type: none;
+  }
+  .competing-team {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 18px;
+  }
+  .venue-result-text-color {
+    font-size: 16px;
+  }
+  .competing-team-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .innings {
+    font-size: 16px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+}

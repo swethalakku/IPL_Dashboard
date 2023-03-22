@@ -1,0 +1,43 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree-Serief';
+  font-weight: bold;
+}
+.recent-competing-team-logo {
+  height: 100px;
+  width: 100px;
+}
+.recent-competing-team {
+  font-size: 30px;
+}
+.recent-item-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 30vw;
+  margin: 10px;
+  list-style-type: none;
+}
+.lost-match-status {
+  color: #e31a1a;
+}
+.won-match-status {
+  color: #18ed66;
+}
+
+@media screen and (max-width: 768px) {
+  .recent-competing-team-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .recent-competing-team {
+    font-size: 16px;
+  }
+  .recent-item-container {
+    width: 80vw;
+  }
+}

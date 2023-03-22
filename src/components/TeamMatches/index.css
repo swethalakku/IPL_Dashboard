@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+  padding: 30px;
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #13418b, #0f172a);
+  padding: 30px;
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #13418b, #0f172a);
+  padding: 30px;
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #4f5db0, #0f172a);
+  padding: 30px;
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #4f5db0, #0f172a);
+  padding: 30px;
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #ffffff33, #0f172a);
+  padding: 30px;
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #d91c1f, #0f172a);
+  padding: 30px;
+}
+.DC {
+  background-image: linear-gradient(to bottom, #13418b, #d91c1f, #0f172a);
+  padding: 30px;
+}
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.latest-match-details-container {
+  background-color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  padding: 20px;
+  border-radius: 20px;
+  /* margin: 20px; */
+}
+.team-banner {
+  width: 80vw;
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  .recent-matches-container {
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;
+  }
+}
+
+.latest-matches-heading {
+  align-self: flex-start;
+  margin-left: 10vw;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-matches-heading {
+    align-self: flex-start;
+    margin-left: 10vw;
+    font-size: 24px;
+  }
+  .recent-matches-container {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
